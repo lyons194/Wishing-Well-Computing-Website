@@ -13,6 +13,31 @@ body {
 	color: white; /* white text color */
 }
 
+.navbar {
+	overflow: hidden; /* Hide overflow */
+	background-color: #333; /* dark background color */
+}
+
+.navbar a {
+	float: left; /* make sure that the links stay side-by-side */
+	display: block; /* changing the display to a block style */
+	color: white; /*white text color */
+	text-align: center; /* centered text alignment */
+	padding: 14px 20px; /* Add some padding */
+	text-decoration: none; /* remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+	float: right; /* Float a link to the right */
+}
+
+/* Menu color changing option */
+.navbar a:hover {
+	background-color: #ddd; /* grey background color */
+	color: black; /* black text color */
+}
+
 .footer {
 	padding: 20px; /* Some padding */
 	text-align: center; /* Centered text */
