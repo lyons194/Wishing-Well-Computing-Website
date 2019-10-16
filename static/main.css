@@ -10,5 +10,11 @@ body {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
 	background: #FFA500; /* orange background */
-	color: white; /* white text color /*
+	color: white; /* white text color */
+}
+
+.footer {
+	padding: 20px; /* Some padding */
+	text-align: center; /* Centered text */
+	background: #ddd; /* Grey background */
 }
