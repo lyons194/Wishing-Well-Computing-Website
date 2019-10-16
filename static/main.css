@@ -39,6 +39,35 @@ body {
 	color: black; /* black text color blah */
 }
 
+/* Ensure proper sizing for two-column layout. */
+
+* {
+	box-sizing: border-box;
+}
+
+/* Column container */
+
+.row {
+	display: flex;
+	flex-wra: wrap;
+}
+
+/* Create two unequal columns that sit next to each other. */
+
+.side {
+	flex: 30%; /* Setting the width of the side bar. */
+	background-color: #f1f1f1; /* Grey background color */
+	padding: 20px; /* some padding */
+}
+
+/* Main column */
+
+.main {
+	flex: 70%; /* Set the width of the main content */
+	background-color: white;  /* white background color */
+	padding: 20px; /* some padding */
+}
+
 .footer {
 	padding: 20px; /* Some padding */
 	text-align: center; /* Centered text */
