@@ -1,16 +1,16 @@
 head {
-	background: #FF4500;
+	background: #FF6a32;
 }
 
 body {
-	background: #FF4500;
+	background: #FF6a32;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
-	background: #FF4500; /* red-orange background */
+	background: #FF6a32; /* red-orange background */
 	color: white; /* white text color */
 }
 
