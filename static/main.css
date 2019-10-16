@@ -16,7 +16,7 @@ body {
 
 .navbar {
 	overflow: hidden; /* Hide overflow */
-	background-color: #00b8ff; /* dark background color */
+	background-color: #0092ff; /* blue background color */
 }
 
 .navbar a {
@@ -42,5 +42,5 @@ body {
 .footer {
 	padding: 20px; /* Some padding */
 	text-align: center; /* Centered text */
-	background: #00b8ff; /* light blue background */
+	background: #0092ff; /* light blue background */
 }
