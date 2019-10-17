@@ -10,8 +10,8 @@ body {
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
-	background: #FF6a32; /* red-orange background */
-	color: white; /* white text color */
+	background: #FFFFFF; /* red-orange background */
+	color: #000000; /* white text color */
 }
 
 .navbar {
@@ -71,5 +71,5 @@ body {
 .footer {
 	padding: 20px; /* Some padding */
 	text-align: center; /* Centered text */
-	background: #FF4500; /* orange-red background */
+	background: #FF6a32; /* orange-red background */
 }
