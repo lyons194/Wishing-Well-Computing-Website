@@ -7,6 +7,14 @@ p {
 	font-family: Times;
 }
 
+h2 {
+	font-family: Times;
+}
+
+h3 {
+	font-family: Times;
+}
+
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
