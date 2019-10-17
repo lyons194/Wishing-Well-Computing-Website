@@ -1,5 +1,5 @@
 head {
-	background: #FF6a32;
+	background: #FFFFFF;
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 
 .side {
 	flex: 30%; /* Setting the width of the side bar. */
-	background-color: #0092ff; /* blue background color */
+	background-color: #FFFFFF; /* white background color */
 	padding: 20px; /* some padding */
 }
 
@@ -64,12 +64,12 @@ body {
 
 .main {
 	flex: 70%; /* Set the width of the main content */
-	background-color: white;  /* white background color */
+	background-color: #FFFFFF;  /* white background color */
 	padding: 20px; /* some padding */
 }
 
 .footer {
 	padding: 20px; /* Some padding */
 	text-align: center; /* Centered text */
-	background: #0092ff; /* light blue background */
+	background: #FF4500; /* orange-red background */
 }
