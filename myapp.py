@@ -6,7 +6,7 @@ def home():
     return render_template('home.html')
 
 @app.route('/about/')
-def home():
+def about():
     return render_template('about.html')
 
 @app.route('/careers/')
