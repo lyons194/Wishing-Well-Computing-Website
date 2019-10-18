@@ -9,5 +9,9 @@ def home():
 def careers():
     return render_template('careers.html')
 
+@app.route('/news/')
+def news():
+    return render_template('news.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
