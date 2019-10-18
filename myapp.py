@@ -13,5 +13,9 @@ def careers():
 def news():
     return render_template('news.html')
 
+@app.route('/status-update/')
+def status():
+    return render_template('status.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
