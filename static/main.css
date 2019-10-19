@@ -18,9 +18,10 @@ h3 {
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
-	background-image: url("https://intellident-pdr.netlify.com/static/Images/alternative-logo.png");
+	background-image: url("https://intellident-pdr.netlify.com/static/Images/Intellident-logo-black.png");
 	background-repeat: no-repeat;
-	color: #000000; /* black text color */
+	background-color: #000000;
+	color: #FFFFFF; /* white text color */
 }
 
 .navbar {
