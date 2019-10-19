@@ -18,8 +18,8 @@ h3 {
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
-	background: #FFFFFF;
-	color: #000000; /* white text color */
+	background-image: url("https://intellident-pdr.netlify.com/static/Images/store-front.jpg");
+	color: #000000; /* black text color */
 }
 
 .navbar {
