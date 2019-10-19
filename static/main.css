@@ -77,6 +77,25 @@ h3 {
 	padding: 20px; /* some padding */
 }
 
+/*Responsive layout.  If screen is less than 700px ide, the two columns stack.*/
+
+@media screen and (max-width: 700px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+/*Responsive layout.  If screen is less than 400px wide, the nav links stack.*/
+
+@media screen and (max-width: 400px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
+
+
+/*Footer CSS code*/
 .footer {
 	padding: 20px; /* Some padding */
 	text-align: center; /* Centered text */
