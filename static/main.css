@@ -58,11 +58,11 @@ h3 {
 
 .row {
 	display: flex;
-	flex-wra: wrap;
+	flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sit next to each other. */
-
+/*sidebar-left-column*/
 .side {
 	flex: 30%; /* Setting the width of the side bar. */
 	background-color: #FFFFFF; /* white background color */
