@@ -19,6 +19,7 @@ h3 {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
 	background-image: url("https://intellident-pdr.netlify.com/static/Images/store-front.jpg");
+	background-repeat: no-repeat;
 	color: #000000; /* black text color */
 }
 
