@@ -25,5 +25,9 @@ def status():
 def faq():
     return render_template('faq.html')
 
+@app.route('/our-process/')
+def our():
+    return render_template('our-process.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
