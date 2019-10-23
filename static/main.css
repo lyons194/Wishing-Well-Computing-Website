@@ -18,7 +18,7 @@ h3 {
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
-	background-image: url("https://intellident-pdr.netlify.com/static/Images/intellident-white-logo.png?nf_resize=fit&w=300&h=400");
+	background-image: url("https://intellident-pdr.netlify.com/static/Images/intellident-white-logo.png?nf_resize=fit&w=200&h=200");
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 	color: #000000; /* white text color */
