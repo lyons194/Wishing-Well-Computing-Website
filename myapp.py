@@ -3,31 +3,19 @@ app=Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('home.html')
-
-@app.route('/about/')
-def about():
     return render_template('about.html')
 
-@app.route('/careers/')
-def careers():
-    return render_template('careers.html')
+@app.route('/contribute/')
+def contribute():
+    return render_template('contribute.html')
+
+@app.route('/help/')
+def help():
+    return render_template('help.html')
 
 @app.route('/news/')
 def news():
     return render_template('news.html')
-
-@app.route('/status-update/')
-def status():
-    return render_template('status.html')
-
-@app.route('/faq/')
-def faq():
-    return render_template('faq.html')
-
-@app.route('/our-process/')
-def our():
-    return render_template('our-process.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
