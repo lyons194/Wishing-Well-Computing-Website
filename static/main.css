@@ -1,5 +1,5 @@
 body {
-	background: #FFFFFF;
+	background: #000000;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,7 +38,7 @@ h3 {
 .navbar a {
 	float: left; /* make sure that the links stay side-by-side */
 	display: block; /* changing the display to a block style */
-	color: white; /*white text color */
+	color: blue; /*blue text color */
 	text-align: center; /* centered text alignment */
 	padding: 14px 20px; /* Add some padding */
 	text-decoration: none; /* remove underline */
