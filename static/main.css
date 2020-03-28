@@ -18,15 +18,21 @@ h3 {
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
+	/*
+	
+	Example for when you want to set an image.
+	
 	background-image: url("https://intellident-pdr.netlify.com/static/Images/intellident-white-logo.png?nf_resize=fit&w=200&h=200");
 	background-repeat: no-repeat;
-	background-color: #FFFFFF;
-	color: #000000; /* white text color */
+	
+	*/
+	background-color: #000000;
+	color: #FFFFFF; /* white text color */
 }
 
 .navbar {
 	overflow: hidden; /* Hide overflow */
-	background-color: #0092ff; /* blue background color */
+	background-color: #000000; /* black background color */
 }
 
 .navbar a {
@@ -45,8 +51,8 @@ h3 {
 
 /* Menu color changing option */
 .navbar a:hover {
-	background-color: #ddd; /* grey background color */
-	color: black; /* black text color blah */
+	background-color: #FFFFFF; /* grey background color */
+	color: white; /* black text color blah */
 }
 
 /* Ensure proper sizing for two-column layout. */
@@ -66,7 +72,7 @@ h3 {
 /*sidebar-left-column*/
 .side {
 	flex: 30%; /* Setting the width of the side bar. */
-	background-color: #FFFFFF; /* white background color */
+	background-color: #000000; /* black background color */
 	padding: 20px; /* some padding */
 }
 
@@ -74,7 +80,7 @@ h3 {
 
 .main {
 	flex: 70%; /* Set the width of the main content */
-	background-color: #FFFFFF;  /* white background color */
+	background-color: #000000 /* black background color */
 	padding: 20px; /* some padding */
 }
 
@@ -100,5 +106,5 @@ h3 {
 .footer {
 	padding: 20px; /* Some padding */
 	text-align: center; /* Centered text */
-	background: #FF6a32; /* orange-red background */
+	background: #000000; /* black background */
 }
