@@ -38,7 +38,7 @@ h3 {
 .navbar a {
 	float: left; /* make sure that the links stay side-by-side */
 	display: block; /* changing the display to a block style */
-	color: blue; /*blue text color */
+	color: white; /*white text color */
 	text-align: center; /* centered text alignment */
 	padding: 14px 20px; /* Add some padding */
 	text-decoration: none; /* remove underline */
@@ -52,7 +52,7 @@ h3 {
 /* Menu color changing option */
 .navbar a:hover {
 	background-color: #FFFFFF; /* grey background color */
-	color: white; /* black text color blah */
+	color: red; /* black text color blah */
 }
 
 /* Ensure proper sizing for two-column layout. */
