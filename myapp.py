@@ -9,6 +9,10 @@ def home():
 def contribute():
     return render_template('contribute.html')
 
+@app.route('/download/')
+def download():
+    return render_template('download.html')
+
 @app.route('/help/')
 def help():
     return render_template('help.html')
