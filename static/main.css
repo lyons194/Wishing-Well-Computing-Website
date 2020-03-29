@@ -18,6 +18,11 @@ h3 {
 	color: white;
 }
 
+h4 {
+	font-family: Times;
+	color: white;
+}
+
 .header {
 	padding: 80px; /* some padding */
 	text-align: center; /* center the text */
