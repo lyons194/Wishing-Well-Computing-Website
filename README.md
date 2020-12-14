@@ -1,2 +1,2 @@
-# personal-website
-A personalized website, made using Python's flask module, HTML and CSS.
+# Wishing-Well-website
+A website for Wishing Well, made using Python's flask module, HTML and CSS.
